@@ -1,23 +1,22 @@
 .frame {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 400px;
-    height: 500px;
-    margin-top: -200px;
-    margin-left: -200px;
+    width: 550px;
+    height: 650px;
     border-radius: 2px;
     box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
     overflow: hidden;
     background: whitesmoke;
     color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .center {
     position: absolute;
-    height: 300px;
-    width: 400px;
-    top: 135px;
+    height: 200px;
+    width: 300px;
+    top: 100px;
     left: 0;
     transform: perspective(60px);
     transform-style: preserve-3d;
@@ -25,13 +24,11 @@
 
 .card {
     position: absolute;
-    width: 300px;
-    height: 400px;
-    top: 0;
-    left: 130px;
+    width: 250px;
+    height: 350px;
+    left: 90px;
     background: #fff;
-    border-radius: 3px;
-    overflow: auto;
+    overflow: hidden;
     box-shadow: 4px 8px 12px 0px rgba(0, 0, 0, 0.2);
 }
 
